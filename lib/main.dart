@@ -3,6 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_calculator/calculator.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
   await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   runApp(CalculatorApp());
 }

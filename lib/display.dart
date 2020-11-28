@@ -16,7 +16,7 @@ class Display extends StatelessWidget {
   Widget build(BuildContext context) {
     TextStyle style = Theme.of(context)
         .textTheme
-        .display2
+        .headline3
         .copyWith(color: Colors.white, fontWeight: FontWeight.w200);
 
     return Container(
